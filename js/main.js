@@ -47,7 +47,7 @@ const moveBox = (e) => {
 
 // Create small balls
 const makeBalls = () => {
-    let i = Math.floor(Math.random() * 1000);
+    let i = between(100, 200);
     let ballsArray = [];
     for (let j = 0; j < i; j++){
         var left = between(0, 1400)
