@@ -3,8 +3,8 @@ const box = document.querySelector('.box');
 // Initializes css styling on box element
 const init = () => {
     box.style.position = "relative";
-    box.style.left = "0px";
-    box.style.top = "0px";
+    box.style.left = "670px";
+    box.style.top = "360px";
 }
 
 // Direction Handler
