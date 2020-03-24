@@ -1,3 +1,6 @@
+// Query selects elements
+const box = document.querySelector('.box');
+const body = document.querySelector('body');
 class Ball {
     constructor(){
         this.width = "10px";
@@ -8,8 +11,6 @@ class Ball {
     }
 }
 
-const box = document.querySelector('.box');
-const body = document.querySelector('body');
 
 // Initializes css styling on box element
 const init = () => {
